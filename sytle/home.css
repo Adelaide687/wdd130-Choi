@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(196, 179, 156);
+}
+#hero{
+    width: fit-content;
+}
+#logo{
+    width: 100px;
+    clip-path: circle(50%);
+}
