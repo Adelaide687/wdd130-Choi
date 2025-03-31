@@ -4,43 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asian Grocery Shop</title>
-    <link type="text/css" rel="stylesheet" href="sytle/home.css">
+    <link rel="stylesheet" href="sytle/vegetable.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <p>Search</p>
-            <p>Cart</p>
-            <p>Login</p>
-            <p>Contact</p>
+            <a href="#">Search</a>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
+
     <main>
+        <!-- Hero Section -->
         <div id="hero">
-            <img src="images/vegetables/vegetable hero.png" width="100%" alt="hero">
+            <img src="images/vegetables/vegetable hero.png" width="100%" alt="Fresh Asian vegetables">
             <div id="logo">
-                <img src="images/logo/logo.png" width="100%" alt="logo">
+                <img src="images/logo/logo.png" alt="Store Logo">
             </div>
         </div>
-<h1>Category</h1>
-<h2>Fresh List</h2>
-<h2>Frozen List</h2>
-<h1>Fresh</h1>
-<h1>Frozen</h1>
-<h1>Total</h1>
 
+        <!-- Category Section -->
+        <section class="categories">
+            <h1>Categories</h1>
+            <div class="category-buttons">
+                <button>Fresh</button>
+                <button>Frozen</button>
+                <button>Total</button>
+            </div>
+        </section>
+
+        <!-- Product Lists -->
+        <section class="product-list">
+            <h2>Fresh List</h2>
+            <div class="product-grid">
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+            </div>
+
+            <h2>Frozen List</h2>
+            <div class="product-grid">
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>Why Shop With Us?</h2>
+            <p>
+                Finding fresh vegetables for Asian cooking in Rexburg can be challenging, as large supermarkets often lack staples like bok choy, napa cabbage, Chinese eggplant, daikon radish, and essential herbs such as Thai basil and cilantro. 
+                Our grocery store solves this problem by offering a diverse selection of high-quality, fresh vegetables sourced specifically for Asian cuisine.
+            </p>
+            <p>
+                Instead of settling for limited options at mainstream stores or traveling out of state, you can now access fresh, high-quality Asian vegetables locally. Our website keeps customers informed about seasonal availability, restock updates, and special deals while also offering tips on storage and preparation.
+            </p>
+        </section>
     </main>
+
     <footer>
         <form>
-            <div id="signup">
-                <label>Sign Up:</label>
-                <input type="text" id="signup" name="signup">
-            </div>
-            <p>Info</p>
-            <p>Privacy Info</p>
-            <p>Social Medias</p>
-            <p>&copy; Harim Choi | Design By</p>
+            <label for="signup">Sign Up for Updates:</label>
+            <input type="email" id="signup" name="signup" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
         </form>
+        <div class="footer-links">
+            <a href="#">Info</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Social Media</a>
+        </div>
+        <p>&copy; 2025 Harim Choi | Design by You</p>
     </footer>
 </body>
 </html>
